@@ -15,7 +15,7 @@ import 'react-circular-progressbar/dist/styles.css';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
-// Define the UpdatePost component
+
 export default function UpdatePost() {
   // State variables
   const [file, setFile] = useState(null);
